@@ -8,7 +8,7 @@ const URL = require("./models/url")
 const app = express();
 app.use(bodyParser.json());
 // app.use(express.bodyParser)
-const PORT = 8081;
+const PORT = 8082;
 
 
 connectToMongoDb("mongodb://localhost:27017/url_short").then(() => console.log("database connected"));
